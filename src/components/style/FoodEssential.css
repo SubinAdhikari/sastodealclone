@@ -1,0 +1,17 @@
+.fEMainDiv{
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.fEMainDiv{
+    /* background-color: red; */
+    height: auto;
+}
+
+}

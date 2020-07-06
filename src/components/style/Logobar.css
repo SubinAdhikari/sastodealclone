@@ -1,0 +1,155 @@
+.mainLogoDiv{
+    width: 100%;
+    height: 15%;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px gray solid;
+}
+.logoContent{
+    width: 100%;
+    height: 100%;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    background-color: #F3F3F3;
+/* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.searchBar{
+    width: 50%;
+    height: 100%;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signIn{
+    width: 12%;
+    height: 95%;
+    background-color: #F3F3F3;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.signInLogo{
+    width: 30%;
+    height: 50%;
+    /* background-color: rgb(243, 231, 231); */
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signInContent{
+    width: 70%;
+    height: 50%;
+    background-color: #F3F3F3;
+}
+.signInContent:hover{
+    cursor: pointer;
+}
+.nameste{
+    width: 100%;
+    height: 50%;
+    background-color: #F3F3F3;
+}
+.myaccount{
+    width: 100%;
+    height: 50%;
+    background-color: #F3F3F3;
+}
+.cart{
+    width: 12%;
+    height: 50%;
+    background-color: #F3F3F3;
+    /* background-color: gray; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.cart:hover{
+    cursor: pointer;
+} 
+
+/* HAMBURGER  */
+.hamburgerMenu{
+    display: none !important;
+    }
+/* HAMBURGER  END*/
+
+.displayData{
+    width: 200px;
+    height:150px;
+    z-index: 9999;
+    background-color: green;
+    display: none !important;
+}
+
+.expandIconMyAccount:hover ~ .displayData{
+    display: block !important;
+
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.searchBar{
+    display: none;
+}
+.mainLogoDiv{
+    height: 10%;
+}
+.logo{
+    width: 50%;
+}
+.signIn{
+    width: 25%;
+}
+.signInLogo{
+    width: 75%;
+    height: 75%;
+}
+.signInContent{
+    display: none;
+}
+.cart span{
+    display: none;
+}
+
+
+/* HAMBURGER MENU CSS */
+
+.hamburgerMenu{
+    display: block !important;
+    }
+
+.hamburgerMenu input{
+    display: none !important;
+}
+.hamburgerMenu label{
+    margin-left: 8px;
+}
+
+
+ .navbarMain{
+        display: none !important;
+    }
+
+}

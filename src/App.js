@@ -1,26 +1,42 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Switch , NavLink } from 'react-router-dom';
+import Topbar from './components/Topbar';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import Logobar from './components/Logobar';
+import NavBar from './components/NavBar';
+import ImageSlider from './components/ImageSlider';
+import Offer from './components/Offer';
+import ProductAdv from './components/ProductAdv';
+import FoodEssential from './components/FoodEssential';
+import ProductSlider from './components/ProductSlider';
+import WorkFromHomeEssential from './components/componentData/WorkFromHomeEssential'
+import AdvDiv from './components/AdvDiv';
+import EssentialSupplyData from './components/componentData/EssentialSupplyData'
+import AdvSecondRow from './components/componentData/AdvSecondRow';
+import AdvThirdRow from './components/componentData/AdvThirdRow';
+import OurFeature from './components/OurFeature';
+import EmailSubscription from './components/EmailSubscription';
+import Footer from './components/Footer';
+const App = () =>{
+  return(
+    <>
+    <div className="mainDiv">
+    <Topbar/>
+    <Logobar/>
+    <NavBar/>
+    <ImageSlider/>
+    <Offer/>
+    <ProductAdv/>
+    <FoodEssential/>
+    <ProductSlider title="Essential Supplies" data={EssentialSupplyData}/>
+    <AdvDiv data={AdvSecondRow}/>
+    <ProductSlider title="Work From Home Essential" data={WorkFromHomeEssential} />
+    <AdvDiv data={AdvThirdRow}/>
+    <OurFeature/>
+    <EmailSubscription/>
+    <Footer/>
     </div>
+    </>
   );
 }
-
 export default App;

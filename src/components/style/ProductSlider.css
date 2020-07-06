@@ -1,0 +1,43 @@
+.productSliderMain{
+    width: 100%;
+    height: 55%;
+    background-color: #F3F3F3;
+    /* border: 2px black solid; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.ProductList{ 
+width: 95%;
+height: 100%;
+/* border-top: 1px black solid; */
+/* background-color: red;
+border: 1px red solid; */
+} 
+
+/* style={{color:'#9781BB !important'}} */
+.ProductList small{
+    font-size: large;
+    color: #9781BB !important;
+}
+
+#grow{
+cursor: pointer;
+}
+
+
+
+/* Grow A card CSS */
+#grow { transition: all .2s ease-in-out; }
+#grow:hover { transform: scale(0.9); }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .ProductList{
+        /* background-color: red; */
+        overflow-y: scroll;
+    }
+}
+

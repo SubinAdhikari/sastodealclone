@@ -1,0 +1,59 @@
+.EmailSubscriptionMainDiv{
+    width: 100%;
+    height: 30%;
+    /* background-color: #F3F3F3; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Text{
+    width: 70%;
+    height: 40%;
+    /* background-color: tan; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subText{
+    width: 70%;
+    height: 40%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(88, 87, 87);
+}
+.inputBox{
+    width: 70%;
+    height: 30%;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .EmailSubscriptionMainDiv{
+        /* background-color: red; */
+        height: 20%;
+    }
+    .Text{
+        width: 100%;
+        /* background-color: yellow; */
+    }
+    .Text h6{
+        font-size: 12px !important;
+    }
+    .subText{
+        width: 100%;
+        /* background-color: green; */
+    }
+    .inputBox{
+        /* background-color: red; */
+        width: 100%;
+    }
+}

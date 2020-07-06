@@ -1,0 +1,80 @@
+.FooterMain{
+    height: 60%;
+    width: 100%;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.centerDiv{
+    height: 90%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3F3;
+}
+.footerCredit{
+    height: 10%;
+    width: 100%;
+    background-color: #e2e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footerbox{
+    height: 90%;
+    width: 16%;
+    /* background-color: hotpink; */
+    /* border-right: 1px grey solid; */
+    /* margin-right: 1px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-top: 10px;
+    
+}
+.FooterhyperLink{
+    width: 100%;
+    height: 100%;
+    background-color: #F3F3F3;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.FooterhyperLink h7{
+font-size: 14px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .FooterMain{
+        /* background-color: red; */
+        height: auto;
+    }
+    .centerDiv{
+        /* background-color: green; */
+        display: block;
+        
+    }
+    .Footerbox{
+        /* background-color: greenyellow; */
+        width: 100%;
+        border-bottom: 1px gainsboro solid;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    /* .FooterhyperLink{
+        justify-content: center;
+        align-items: center;
+    } */
+    .footerCredit{
+        font-size: 14px !important;
+    }
+}
